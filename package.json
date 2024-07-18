@@ -1,0 +1,42 @@
+{
+  "name": "arnabmanna",
+  "version": "1.1.2",
+  "description": "Digital card of Arnab Manna (@arnabmanna)",
+  "main": "/bin/card.js",
+  "bin": {
+    "arnabmanna": "./bin/card.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnab-4/arnabmanna.git"
+  },
+  "keywords": [
+    "arnabmanna",
+    "npm",
+    "npm arnabmanna",
+    "npx",
+    "npx arnabmanna"
+  ],
+  "author": "arnabmanna <arnabmanna203@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "bugs": {
+    "url": "https://github.com/arnab-4/arnabmanna/issues"
+  },
+  "homepage": "https://github.com/arnab-4/arnabmanna#readme",
+  "devDependencies": {
+    "asciify-image": "^0.1.1",
+    "chalk": "^4.1.0",
+    "cli-table3": "^0.6.0",
+    "figlet": "^1.5.0"
+  }
+}
